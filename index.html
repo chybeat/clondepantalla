@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Replica de una pantalla de Google meet</title>
+	</head>
+	<body>
+		<section id="streming">
+			<div id="hablante">
+				<p>Nombre de participante</p>
+				<video src="https://player.vimeo.com/external/541617924.sd.mp4"></video>
+			</div>
+			<div id="participantes">
+				<div class="participante">
+					<i class="particicono-microfono"></i>
+					<img srcicono-="/userPhoto.jpg" alt="foto-de-usuario" />
+					<p class="nombre-de-usuario">You</p>
+				</div>
+				<div class="participante">
+					<i class="icono-microfono"></i>
+					<img srcicono-="/userPhoto.jpg" alt="foto-de-usuario" />
+					<p class="nombre-de-usuario">Juli</p>
+				</div>
+				<div class="participante">
+					<i class="icono-microfono"></i>
+					<img srcicono-="/userPhoto.jpg" alt="foto-de-usuario" />
+					<p class="nombre-de-usuario">Cesar</p>
+				</div>
+				<div class="participante">
+					<i class="icono-microfono"></i>
+					<img srcicono-="/userPhoto.jpg" alt="foto-de-usuario" />
+					<p class="nombre-de-usuario">Carlos</p>
+				</div>
+				<div class="participante">
+					<i class="icono-microfono"></i>
+					<img srcicono-="/userPhoto.jpg" alt="foto-de-usuario" />
+					<p class="nombre-de-usuario">Manolo</p>
+				</div>
+				<div id="mas-participantes" class="participante">
+					<i class="icono-microfono"></i>
+					<img srcicono-="/userPhoto.jpg" alt="foto-de-usuario" />
+					<p class="nombre-de-usuario">4 Mas</p>
+				</div>
+			</div>
+			<div id="datos-stream">
+				<p>
+					<span class="hora-actual">7:35PM</span>
+					<span class="id-meet">sdr-sdrt-qod</span>
+				</p>
+			</div>
+			<div id="area-de-control">
+				<div class="microfono"><i class="icono-microfono"></i></div>
+				<div class="camara"><i class="icono-microfono"></i></div>
+				<div class="subtitulos"><i class="icono-microfono"></i></div>
+				<div class="compartir-pantalla"><i class="icono-microfono"></i></div>
+				<div class="menu"><i class="icono-microfono"></i></div>
+				<div class="termina-llamada"><i class="icono-microfono"></i></div>
+			</div>
+		</section>
+		<section id="info">
+			<div id="chat">
+				<p class="titulo">Mesajes de llamada</p>
+				<i class="icono-cerrar"></i>
+				<p class="advertencia-chat">Los mensajes puede ser vistos por las personas en la llamada y se eliminarán cuando termine.</p>
+				<div class="chat">
+					<div class="mensaje-chat">
+						<p class="info-mensaje">
+							<span class="nombre-usuario">Cesar</span>
+							<span class="hora-mensaje">7:31 PM</span>
+						</p>
+						<p class="mensaje-usuario">Pero empezaríamos cuando?</p>
+					</div>
+					<div class="mensaje-chat">
+						<p class="info-mensaje">
+							<span class="nombre-usuario">Alex</span>
+							<span class="hora-mensaje">7:32 PM</span>
+						</p>
+						<p class="mensaje-usuario">
+							Aunque se que existen metodologías para estructurará el html cómo las de bem si alguien utiliza otra metodologías?
+						</p>
+					</div>
+					<div class="mensaje-chat">
+						<p class="info-mensaje">
+							<span class="nombre-usuario">Alex</span>
+							<span class="hora-mensaje">7:31 PM</span>
+						</p>
+						<p class="mensaje-usuario">Pero empezaríamos cuando?</p>
+					</div>
+					<div class="mensaje-chat">
+						<p class="info-mensaje">
+							<span class="nombre-usuario">Yo</span>
+							<span class="hora-mensaje">7:33 PM</span>
+						</p>
+						<p class="mensaje-usuario">Bloeque Elemento Modificdor</p>
+					</div>
+					<div class="mensaje-chat">
+						<p class="info-mensaje">
+							<span class="nombre-usuario">Alex</span>
+							<span class="hora-mensaje">7:33 PM</span>
+						</p>
+						<p class="mensaje-usuario">Para nombrar clases para css</p>
+					</div>
+					<div class="mensaje-chat">
+						<p class="info-mensaje">
+							<span class="nombre-usuario">David</span>
+							<span class="hora-mensaje">7:33 PM</span>
+						</p>
+						<p class="mensaje-usuario">
+							I shared a Jam file with the meeting:
+							<a href="#">htpps://jamboard.google.com/d/1w_seufryslbvcksdgfrasfdjhasf/edit?use=meet_whiteboard</a>
+						</p>
+						<p class="mensaje-usuario">
+							I shared a Jam file with the meeting:
+							<a href="#">htpps://jamboard.google.com/d/1T7pl_jksdfhksjdhfxxzczwerwrdgfrasfqpeoe/edit?use=meet_whiteboard</a>
+						</p>
+					</div>
+
+					<div class="mensaje-chat">
+						<p class="info-mensaje">
+							<span class="nombre-usuario"></span>
+							<span class="hora-mensaje"></span>
+						</p>
+						<p class="mensaje-usuario"></p>
+					</div>
+
+					<div class="mensaje-chat">
+						<p class="info-mensaje">
+							<span class="nombre-usuario"></span>
+							<span class="hora-mensaje"></span>
+						</p>
+						<p class="mensaje-usuario"></p>
+					</div>
+
+					<div class="mensaje-chat">
+						<p class="info-mensaje">
+							<span class="nombre-usuario">Yo</span>
+							<span class="hora-mensaje">7:31 PM</span>
+						</p>
+						<p class="mensaje-usuario">Pero empezaríamos cuando?</p>
+					</div>
+				</div>
+				<div class="tu-mensaje">
+					<form action="">
+						<input typeicono-="text" name="mensaje" placeholder="Envía un mensaje a todos" id="mensaje-de-usuario" />
+						<button><i class="icono-enviar-mensaje"></i></button>
+					</form>
+				</div>
+			</div>
+			<div id="iconos-de-chat">
+				<i class="icono-informacion"></i>
+				<span class="total-usuarios">
+					<i class="icono-usuarios"></i>
+					<span class="cantidad-usuarios">10</span>
+				</span>
+				<i class="icono-mensajes-sin-leer"></i>
+				<i class="icono-configuracion"></i>
+			</div>
+		</section>
+	</body>
+</html>
